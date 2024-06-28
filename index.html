@@ -1,91 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/github.png" type="image/x-icon">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+<title>Meu Portfólio</title>
 </head>
 <body>
-    <header>
-        <h1>Yago Alves</h1>
-        <nav class="nav-bar">
-            
-            <div class="nav-list">
-                <ul>
-                    <li><a id="nav-item" class="btn btn-secondary" id="links" href="#sobre">Sobre Mim</a></li>
-                    <li><a id="nav-item" class="btn btn-secondary" id="links" href="#portfolio">Portfólio</a></li>
-                    <li><a id="nav-item" class="btn btn-secondary" id="links" href="#contato">Contato</a></li>
-                </ul>
-            </div>
-            
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
-            </div>
-
-            <div class="mobile-menu">
-                <ul>
-                    <li><a id="nav-item-mobile"  class="btn btn-secondary" id="links" href="#sobre">Sobre Mim</a></li>
-                    <li><a id="nav-item-mobile" class="btn btn-secondary" id="links" href="#portfolio">Portfólio</a></li>
-                    <li><a id="nav-item-mobile" class="btn btn-secondary" id="links" href="#contato">Contato</a></li>
-                </ul>
-
-                
-            </div>
-        </nav>
-    </header>
-
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Constante aprendiz, fascinado em adquirir e contribuir, conhecimento, contribuindo para negócios sustentáveis, benefícios mútuos e criação de valor de longo prazo.</p>
-        <a class="btn btn-dark" href="https://github.com/yagoalvess" role="button" target="_blank">Link para o meu Github</a>
-
-    </section>
+<header>
+    <a style="color: white;" href="#"><h1>Yago Alves</h1></a>
     
-    <section id="portifolio">
+    <div id="links">
+        <a href="#"><img src="imgs/gmail.png" alt="" id="gmail"></a>
+        <a href="#"><img src="imgs/linkedin.png" alt="" id="linkedin"></a>
+        <a href="#"><img src="imgs/github.png" alt="" id="github"></a>
+    </div>
+    
+    
+</header>
+<section class="portfolio">
+    <div class="item">
+        <h2>Projeto YANA</h2>
+        <p>Projeto desenvolvido em grupo para a matéria Análise e Projeto de Sistemas, do curso Análise e Desenvolvimento de Sistemas da UNICID.
+        O objetivo do Y.A.N.A é democratizar o acesso ao atendimento psicológico, utilizando para isso de uma plataforma online que garante a anonimidade dos usuários e permite que todos possam conversar com profissionais da área sobre seus problemas.
+        O site foi utiliza das linguagens HTML, CSS, JavaScript e PHP.</p>
+        <a href="#"><h2>Link do projeto</h2></a>
+        <img src="imagem1.jpg" alt="">        
+    </div>
 
-        <div class="projeto">
-            <h3 >Tccentralizer</h3>
-            <p>Projeto desenvolvido em grupo para a matéria Aplicações para internet, do curso Análise e Desenvolvimento de Sistemas da UNICID. É Uma plataforma com a proposta de unificar a entrega e correção de trabalhos de conclusão de curso,com ênfase aos requisitos funcionais voltados para o gerenciamento de pessoas e arquivos e a otimização de tempo. O site foi utiliza das linguagens HTML, CSS, JavaScript e PHP e o framework como o Bootstrap.</p>
-            <a class="btn btn-secondary" href="https://github.com/Leonardo-FP/tccentralizer" role="button" target="_blank">Você pode conferir o projeto clicando aqui!</a>
-        </div>
-        <div class="projeto">
-            
-            <h3> Cotação de moedas</h3>
-            <p>O projeto faz a criação de um software que tem a cotação atualizada em tempo real das moedas DOLAR, EURO, E BTC.</p>
-            <a class="btn btn-secondary" href="https://github.com/yagoalvess/cotacao-de-moedas" role="button" target="_blank">Você pode conferir o projeto clicando aqui!</a>
-        </div>
+    <div class="item">
+        <h2>tccentralizer</h2>
+        <p>Uma plataforma com a proposta de unificar a entrega e correção de trabalhos de conclusão de curso, com ênfase aos requisitos funcionais voltados para o gerenciamento de pessoas e arquivos e a otimização de tempo..</p>
 
-        <div class="projeto">
-            <h3>Buscador de cep</h3>
-            <p>É um software que foi feito para buscar os dados de um cep digitado pelo usuario.</p>
-            <a class="btn btn-secondary" href="https://github.com/yagoalvess/Buscador-de-cep" role="button" target="_blank">Você pode conferir o projeto clicando aqui!</a>
-        </div>
+        <a href="#"><h2>Link do projeto</h2></a>
+        <img src="imagem2.jpg" alt="">
+    </div>
 
-        <div class="projeto">
-            <h3>Y.A.N.A</h3>
-            <p>O objetivo do Y.A.N.A é democratizar o acesso ao atendimento psicológico, utilizando para isso de uma plataforma online que garante a anonimidade dos usuários e permite que todos possam conversar com profissionais da área sobre seus problemas. O site foi utiliza das linguagens HTML, CSS, JavaScript e PHP.</p>
-            <a class="btn btn-secondary" href="https://github.com/Leonardo-FP/yana" role="button" target="_blank">Você pode conferir o projeto clicando aqui!</a>
-        </div>
+    <!--  projeto em andamento 
+    <div class="item">
+        <h2>Projeto 3</h2>
+        <p>Descrição do projeto 3.</p>
+        <img src="imagem3.jpg" alt="">
+    </div>
+    -->
+    
 
-
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <ul class="social-icons">
-            <li><a href="https://www.linkedin.com/in/yagoalves25/" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/yagoalvess" target="_blank"><i class="fa fa-brands fa-github"></i></a></li>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Portfólio Yago</p>
-    </footer>
-    <script src="https://kit.fontawesome.com/54f84a7f25.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+</section>
+<footer>
+    <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>

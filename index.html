@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
 <link rel="stylesheet" href="style.css">
-<title>Meu Portfólio</title>
+<title>Portfólio</title>
 </head>
 <body>
 <header>
     <a style="color: white;" href="#"><h1>Yago Alves</h1></a>
     
     <div id="links">
-        <a href="#"><img src="imgs/gmail.png" alt="" id="gmail"></a>
-        <a href="#"><img src="imgs/linkedin.png" alt="" id="linkedin"></a>
-        <a href="#"><img src="imgs/github.png" alt="" id="github"></a>
+        <a onclick="copyEmail()" href="#"><img src="imgs/gmail.png" alt="" id="gmail"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/yagoalves25"><img src="imgs/linkedin.png" alt="" id="linkedin"></a>
+        <a target="_blank" href="https://github.com/yagoalvess"><img src="imgs/github.png" alt="" id="github"></a>
     </div>
     
     
@@ -50,5 +50,13 @@
 <footer>
     <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
 </footer>
+
+<!-- notification e nome do email -->
+<p id="texto"><span id="email">yagoalves455@gmail.com</span></p>
+<div id="notification" class="notification"></div>
+
+
+
+<script src="sricpt.js"></script>
 </body>
 </html>

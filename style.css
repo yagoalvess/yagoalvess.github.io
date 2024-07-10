@@ -38,15 +38,17 @@ img{width: 25px;height: 25px;margin-left: 6px;}
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
 }
 
 .item {
+    
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
     width: 30%;
+    
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
 }
